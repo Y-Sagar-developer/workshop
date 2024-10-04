@@ -1,40 +1,48 @@
+.firstsection {
+  display: grid;
+  gap: 30px;
+  background-image: url(./travel.avif);
+  background-position: center;
+  background-size: cover;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.para {
+  display: block;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.lorem {
+  color: white;
+}
 
+.secondclass {
+  display: grid;
+  gap: -5px;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.start {
+  font-size: 35px;
+  font-weight: bold;
+}
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
 
-
- .navbar-expand-lg{
-    flex-wrap: wrap;
-    justify-content: space-around
- }
- .firstsection{
-    display: grid;
-    gap: 40px;
-    background-image:url(./travel.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-
- }
- .para{
-    display:block;
-    font-size: 80px;
-    font-weight: bolder;
-
-    
- }
- .lorem{
-    color: white;
- }
- img{
-    width: 50px;
- }
- .card{
-    height: 30px;
- }
- .card-img-top{
-    /* height: 100px; */
-    width: 100px;
-    height: 150px;
- }
- .boat{
-    display: flex;
-    justify-content: space-between;
- }
+.boat {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  gap: 15px;
+}
+.card-title {
+  margin-top: -19px;
+}
+.card {
+  text-align: center;
+}
+.second {
+  margin-top: 30px;
+}
